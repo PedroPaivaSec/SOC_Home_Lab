@@ -13,13 +13,10 @@ Laboratório virtualizado focado em estudos de:
 
 ## Ambiente
 - VirtualBox
-- Kali Linux
-- Debian 12
-- Ubuntu Server
-- Wazuh
-- Splunk
-- Suricata
-- Zeek
+- Kali Linux (Atacante)
+- Debian 12 (Wazuh Manager)
+- Ubuntu Server (Splunk Enterprise)
+- Ubuntu Server (Servidor HTTP alvo)
 
 ## Arquitetura de Rede
 Cada máquina virtual utiliza:
