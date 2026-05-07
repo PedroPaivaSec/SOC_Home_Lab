@@ -6,17 +6,17 @@ Laboratório virtualizado focado em detecção, monitoramento e análise de even
 ## Objetivo
 Laboratório virtualizado focado em estudos de:
 - SIEM
-- IDS/NSM
 - análise de logs
 - monitoramento
 - investigação de incidentes
 
 ## Ambiente
-- VirtualBox
-- Kali Linux (Atacante)
-- Debian 12 (Wazuh Manager)
-- Ubuntu Server (Splunk Enterprise)
-- Ubuntu Server (Servidor HTTP alvo)
+| VM | Função |
+|---|---|
+| Kali Linux | Geração de tráfego ofensivo |
+| Debian 12 | Wazuh Manager |
+| Ubuntu Server | Splunk Enterprise |
+| Ubuntu Server | Servidor HTTP alvo |
 
 ## Arquitetura de Rede
 Cada máquina virtual utiliza:
