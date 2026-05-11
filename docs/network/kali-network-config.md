@@ -7,10 +7,10 @@ para garantir comunicação estável com as demais VMs do laboratório.
 
 ## Interfaces
 
-| Interface | Tipo      | IP               | Finalidade                          |
-|-----------|-----------|------------------|-------------------------------------|
+| Interface | Tipo      | IP               | Finalidade                             |
+|-----------|-----------|------------------|----------------------------------------|
 | eth0      | NAT       | DHCP (automático)| Acesso externo, atualização de pacotes |
-| eth1      | Host-Only | 192.168.56.10/24 | Comunicação interna com as VMs      |
+| eth1      | Host-Only | 192.168.56.10/24 | Comunicação interna com as VMs         |
 
 ## Configuração Aplicada
 
