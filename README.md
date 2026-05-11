@@ -36,12 +36,12 @@ Diagrama completo: [`diagrams/lab-architecture.png`](diagrams/lab-architecture.p
 
 ## Estrutura do Repositório
 
--docs/setup/       → instalação e configuração de cada componente
--splunk/queries/   → queries SPL por categoria de ameaça
--wazuh/rules/      → regras customizadas
--incidents/        → relatórios de detecção simulada
--diagrams/         → arquitetura de rede
--screenshots/      → evidências visuais
+- docs/setup/       → instalação e configuração de cada componente
+- splunk/queries/   → queries SPL por categoria de ameaça
+- wazuh/rules/      → regras customizadas
+- incidents/        → relatórios de detecção simulada
+- diagrams/         → arquitetura de rede
+- screenshots/      → evidências visuais
 
 ## Progresso
 
