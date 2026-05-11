@@ -36,21 +36,21 @@ Diagrama completo: [`diagrams/lab-architecture.png`](diagrams/lab-architecture.p
 
 ## Estrutura do Repositório
 
-docs/setup/       → instalação e configuração de cada componente
-splunk/queries/   → queries SPL por categoria de ameaça
-wazuh/rules/      → regras customizadas
-incidents/        → relatórios de detecção simulada
-diagrams/         → arquitetura de rede
-screenshots/      → evidências visuais
+-docs/setup/       → instalação e configuração de cada componente
+-splunk/queries/   → queries SPL por categoria de ameaça
+-wazuh/rules/      → regras customizadas
+-incidents/        → relatórios de detecção simulada
+-diagrams/         → arquitetura de rede
+-screenshots/      → evidências visuais
 
 ## Progresso
 
 - [x] Criação das VMs
 - [x] Configuração das interfaces NAT e Host-Only
 - [x] Configuração inicial do Kali Linux
-- [x] Configuração do Wazuh Manager (Debian)
+- [ ] Configuração do Wazuh Manager (Debian)
 - [ ] Configuração do Wazuh Agent (Ubuntu Alvo)
-- [ ] Configuração do Splunk Enterprise
+- [x] Configuração do Splunk Enterprise
 - [ ] Configuração dos Universal Forwarders
 - [ ] Integração Wazuh → Splunk
 - [ ] Primeiro cenário de detecção documentado
