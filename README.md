@@ -13,8 +13,8 @@ com foco em análise de logs, correlação de eventos e investigação de incide
 | VM             | OS               | Função                        | IP             |
 |----------------|------------------|-------------------------------|----------------|
 | Kali Linux     | Kali Linux       | Atacante                      | 192.168.56.10  |
-| Ubuntu Server  | Ubuntu 25.04 LTS | Splunk Enterprise (SIEM)      | 192.168.56.20  |
-| Ubuntu Server  | Ubuntu 25.04 LTS | Alvo (Wazuh Agent)            | 192.168.56.30  |
+| Ubuntu Server  | Ubuntu 25.04     | Splunk Enterprise (SIEM)      | 192.168.56.20  |
+| Ubuntu Server  | Ubuntu 25.04     | Alvo (Wazuh Agent)            | 192.168.56.30  |
 | Debian 12      | Debian 12        | Wazuh Manager                 | 192.168.56.40  |
 
 ## Arquitetura de Rede
